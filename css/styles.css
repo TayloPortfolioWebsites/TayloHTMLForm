@@ -4,3 +4,9 @@ body{
     margin: 0;
     background-color: #EDDBC7;
 }
+
+label{
+    background-color: green;
+    display: inline-block;
+    margin: 0.5rem 0;
+}
