@@ -14,9 +14,14 @@
         <label for="">First Name: <input type="text" required></label>
         <label for="">Last Name: <input type="text" required></label>
         <label for="">Email: <input type="email" required></label>
-        <label for="">Password: <input type="password" required></label>
+        <!-- <label for="">Password: <input type="password" minlength="8" pattern="[a-z0-5{8,}]" required></label> -->
+        <label for="">Password: <input type="password" pattern="[a-z0-5]{8}" required></label>
       </fieldset>
-      <fieldset></fieldset>
+      <fieldset>
+        <label for="#"><input type="radio" name="" id=""></label>
+        <label for="#"><input type="radio" name="" id=""></label>
+        <label for="#"><input type="checkbox" required></label>
+      </fieldset>
       <fieldset></fieldset>
     </form>
   </body>
